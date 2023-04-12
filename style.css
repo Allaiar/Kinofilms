@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+/* font-family: 'DM Sans', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  height: 60px;
+}
+
+.header__logo {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.header__search {
+  position: relative;
+  margin-right: -58px;
+  width: 220px;
+  height: 38px;
+  padding: 0 0 0 10px;
+  border: 2px solid rgb(251, 190, 22);
+  border-radius: 15px;
+}
+button {
+  position: relative;
+  border-radius: 12px;
+  padding: 5px;
+  background-color: rgb(251, 190, 22);
+  border: 1px solid #ddae6c;
+}
+.img__card {
+  border-radius: 15px;
+}
+.texts__card {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+.texts__model2 {
+  display: flex;
+  margin-left: 150px;
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 20px;
+}
+.parent__texts {
+  display: flex;
+}
+.nameRu {
+  margin-left: 20px;
+  font-size: 40px;
+}
+.button__card {
+  border-radius: 2px;
+  border: transparent;
+  width: 170px;
+  height: 35px;
+}
+.button__card2 {
+  background-color: rgb(190, 190, 191);
+  border: 1px solid #383838;
+  border-radius: 2px;
+  width: 170px;
+  height: 35px;
+}
+.test__card {
+  background-color: rgb(224, 224, 225);
+  width: 170px;
+  height: 35px;
+  border-radius: 2px;
+  border-bottom: 1px solid rgba(0, 0, 0.125);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 0 0 5px;
+}
+.model__cards{
+  color: black;
+}
+.movie__average--green {
+  color: green;
+}
+
+.movie__average--orange {
+  color: orange;
+}
+
+.movie__average--red {
+  color: red;
+}
+.genres{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50px;
+}
+.show {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+.close{
+  z-index: 1;
+  width: 70px;
+  margin-top: 10px;
+}
+.modal_window{
+  width: 390px;
+  border-radius: 10px;
+  background: #464444;
+  padding: 20px;
+}
+.modal_window-img{
+  border-radius: 10px;
+}
+.modal_window[open]{
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
